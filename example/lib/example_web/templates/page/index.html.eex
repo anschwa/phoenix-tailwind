@@ -1,0 +1,87 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
+  <p>Peace of mind from prototype to production</p>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
+      </li>
+      <li>
+        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+      </li>
+      <li>
+        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
+      </li>
+    </ul>
+  </article>
+  <article class="column">
+    <h2>Help</h2>
+    <ul>
+      <li>
+        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
+      </li>
+      <li>
+        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
+      </li>
+      <li>
+        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
+      </li>
+    </ul>
+  </article>
+</section>
+
+<!-- Testing Tailwind -->
+<section class="p-4 mt-10 mx-6 border-2 border-purple-700 rounded">
+  <div class="bg-green-200 mb-4 p-8 rounded-lg">
+    Id consectetur purus ut faucibus pulvinar elementum integer
+    enim? Tortor aliquam nulla facilisi cras fermentum, odio eu
+    feugiat pretium, nibh ipsum consequat nisl, vel pretium lectus
+    quam id leo in!
+  </div>
+
+  <div class="bg-gray-100 ma-5 p-4 rounded">
+    <label class="block my-4">
+      <span class="block">Test One</span>
+      <input type="text" placeholder="This is a test" />
+    </label>
+
+    <label class="block my-4">
+      <span class="block">Another Test</span>
+      <input type="email" placeholder="helloworld@mail.example.com" />
+    </label>
+
+    <label class="block my-4">
+      <span class="block">Textarea</span>
+      <textarea cols="80" rows="6">
+Luctus accumsan tortor posuere ac. Mi tempus imperdiet nulla malesuada
+pellentesque elit eget gravida cum sociis natoque penatibus et magnis
+dis parturient montes, nascetur ridiculus mus mauris vitae ultricies
+leo.
+      </textarea>
+    </label>
+
+    <div class="flex flex-row justify-around">
+      <div>
+        <button class="btn">default</button>
+        <button class="btn btn-disabled">disabled</button>
+      </div>
+
+      <div>
+        <button class="btn btn-red">red</button>
+        <button class="btn btn-red btn-disabled">disabled</button>
+      </div>
+
+      <div>
+        <button class="btn btn-blue">blue</button>
+        <button class="btn btn-blue btn-disabled">disabled</button>
+      </div>
+    </div>
+  </div>
+</section>

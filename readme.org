@@ -1,0 +1,21 @@
+* Phoenix and Tailwind
+
+This is a skeleton Phoenix app configured with Tailwind on 2021-01-28.[fn:1]
+
+The relevant files are:
+#+BEGIN_SRC text
+example/assets/
+├── css
+│   └── app.css
+├── js
+│   └── app.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── webpack.config.js
+#+END_SRC
+
+* Footnotes
+
+[fn:1]
+https://github.com/tailwindlabs/tailwindcss.com/blob/0d47113fca3ea66be94d25759b33e65fbc62a095/src/pages/docs/guides/phoenix.mdx
