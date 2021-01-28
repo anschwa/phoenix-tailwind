@@ -2,6 +2,8 @@
 
 This is a skeleton Phoenix app configured with Tailwind on 2021-01-28.[fn:1]
 
+[[file:screenshot.png]]
+
 The relevant files are:
 #+BEGIN_SRC text
 example/assets/
