@@ -4,6 +4,14 @@ This is a skeleton Phoenix app configured with Tailwind on 2021-01-28.[fn:1]
 
 [[file:screenshot.png]]
 
+Get started:
+#+BEGIN_SRC text
+mix phx.new example
+cd example/assets
+npm uninstall --save-dev sass node-sass sass-loader
+npm install --save-dev tailwindcss @tailwindcss/forms @tailwindcss/typography autoprefixer postcss postcss-loader postcss-import postcss-nested
+#+END_SRC
+
 The relevant files are:
 #+BEGIN_SRC text
 example/assets/
